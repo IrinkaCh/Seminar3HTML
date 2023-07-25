@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #020A18;
+}
+
+.container {
+    width: 1146px;
+    margin: 0 auto;
+}
+
+.header-link {
+    color: #FFF;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 600;
+    padding: 40px 20px;
+    text-decoration: none;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    margin-bottom: 160px;
+}
+
+.subtitle {
+    color: #3A68B8;
+    font-size: 18px;
+    font-family: Open Sans;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+}
+
+.title {
+    color: #FFF;
+    font-size: 55px;
+    font-family: Open Sans;
+    font-weight: 800;
+    line-height: 130%;
+    margin-bottom: 40px;
+}
+
+.desc {
+    margin-bottom: 50px;
+    color: var(--ffffff, #FFF);
+    font-size: 18px;
+    font-family: Open Sans;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.7;
+}
+
+.btn {
+    color: var(--ffffff, #FFF);
+    font-size: 20px;
+    font-family: Open Sans;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 30px 15px;
+    background-color: #3A68B8;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 3px solid transparent;
+}
+
+.main-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-right, .main-left {
+    width: 48%;
+}
+
+.btn:hover {
+    border: 3px solid #3A68B8;
+    color: #3A68B8;
+    background-color: #FFF;
+    transition: all 0.3s;
+}
+
+.main {
+    margin-bottom: 200px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
